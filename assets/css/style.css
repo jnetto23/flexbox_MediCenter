@@ -51,13 +51,83 @@ nav a:hover {
     color:#ffffff;
     background-color: #39aae1;
 }
-
-
-
-
-
-
-
-
-
+#banner {
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - 150px);
+    display: flex;
+    justify-content: center;
+}
+.column {
+    flex-direction: column;
+}
+.banner_headline {
+    width: 30vw;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 0 1px 0 #555555;
+}
+.banner_headline h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.banner_headline h2 {
+    font-size: 25px;
+    font-weight: lighter;
+}
+.banner_options {
+    height: 210px;
+    display: flex;
+}
+.banner_card1,
+.banner_card2,
+.banner_card3 {
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+}
+.banner_card1,
+.banner_card2 {
+    display: flex;
+    flex-direction: column;
+}
+.banner_card1 {
+    background-color: #39aae1;
+}
+.banner_card2 {
+    background-color: #0079c7;
+}
+.banner_card3 {
+    background-color: #2b4c99;
+}
+.card_title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    flex: 1;
+}
+.card_main {
+    flex: 2;
+    margin-bottom: 10px;
+}
+.card_bottom {
+    flex: 1;
+}
+.card_bottom a {
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px;
+}
+.card_main .hours {
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 0;
+    border-bottom: 1px solid #cac0c0;
+}
 
