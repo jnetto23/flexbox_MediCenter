@@ -7,54 +7,65 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>MediCenter</title>
 </head>
-<body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <img src="./assets/img/logo.png" alt="Logo" title="logo MediCenter">
+<body class="no-js">
+    <header id="header">
+        <nav class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo.png" alt="">
+            </a>
+
+            <button id="btn-menu" class="navbar-toggler d-block d-td-none" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                <img src="./assets/img/icons/24px.svg" alt="">
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu 4</a>
+                    </li>
+                </ul>
             </div>
-            <div class="menu">
-                <nav>
-                    <ul>
-                        <li class="active"><a href="">Home</a></li>
-                        <li><a href="">menu</a></li>
-                        <li><a href="">menu</a></li>
-                        <li><a href="">menu</a></li>
-                        <li><a href="">menu</a></li>
-                        <li><a href="">menu</a></li>
-                        <li><a href="">menu</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
+        </nav>
     </header>
+
     <section id="banner">
-        <div class="container column">
-            <div class="banner_headline">
+        <div class="container flex-column">
+            <div class="headline">
                 <h1>Top notch experience</h1>
                 <h2>Medicenter is a responsive template perfect for all screen sizes</h2>
             </div>
-            <div class="banner_options">
-                
-                <div class="banner_card1">
-                    <div class="card_title">Emergency Case</div>
-                    <div class="card_main">
+            <div class="cards">
+                <div class="card-1">
+                    <div class="cards-title">Emergency Case</div>
+                    <div class="cards-main">
                         If you need a doctor urgently outside of medicenter opening hours, call emergency appointment number for emergency service.
                     </div>
-                    <div class="card_bottom"><a href="">Read more</a></div>
+                    <div class="cards-buttom"><a href="">Read more</a></div>
                 </div>
-
-                <div class="banner_card2">
-                    <div class="card_title">Doctors Timetable</div>
-                    <div class="card_main">
+                
+                <div class="card-2">
+                    <div class="cards-title">Doctors Timetable</div>
+                    <div class="cards-main">
                         Here at medicenter we have individual doctor's lists. Click read more below to see services and current timetable for our doctors. 
                     </div>
-                    <div class="card_bottom"><a href="" class="card_btn">Read more</a></div>
+                    <div class="cards-buttom"><a href="" class="card_btn">Read more</a></div>                    
                 </div>
-
-                <div class="banner_card3">
-                    <div class="card_title">Opening Hours</div>
-                    <div class="card_main">
+                
+                <div class="card-3">
+                    <div class="cards-title">Opening Hours</div>
+                    <div class="cards-main">
                         <div class="hours">
                             <span>Monday - Friday</span>
                             <span>8.00 - 17.00</span>
@@ -69,115 +80,70 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
-    <section id="main">
+
+    <main id="main">
         <div class="container">
             <section>
                 <div class="widget">
-                    <div class="widget_title">
-                        <div class="widget_title_text">Latest News</div>
-                        <div class="widget_title_bar"></div>
+                    <div class="widget-title">
+                        <div class="widget-title-text">Latest News</div>
+                        <div class="widget-title-bar"></div>
                     </div>
-                    <div class="widget_body flex">
+                    <div class="widget-body">
                         <article>
                             <a href="#">
-                                <div class="news_data">
-                                    <div class="news_posted_at">12 DEC 12</div>
-                                    <div class="news_comments">2</div>
+                                <div class="news-data">
+                                    <div class="news-posted-at">12 DEC 12</div>
+                                    <div class="news-comments">2</div>
                                 </div>
-                                <div class="news_thumbnail">
+                                <div class="news-thumbnail">
                                     <img src="./assets/img/dr.jpg" alt="">
                                 </div>
-                                <div class="news_title">
+                                <div class="news-title">
                                     Lorem ipsum dolor sit amat velum
                                 </div>
-                                <div class="news_resume">
+                                <div class="news-resume">
                                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita esse voluptatem, culpa eveniet quos nemo saepe perspiciatis minus doloremque, veritatis sequi debitis animi reprehenderit inventore illo ex libero temporibus odio!
-                                    Animi magni aut impedit earum sit culpa ipsam iste dolore aspernatur neque ratione beatae sapiente molestiae laudantium, ducimus nam quae qui optio nihil veniam, ipsum eum est. Nemo, nostrum consequatur?
-                                    Iure laborum quaerat, alias eius quae ducimus numquam eaque magnam exercitationem dolorum temporibus expedita. Ex dolores nesciunt debitis maiores distinctio optio qui in ea odio voluptate! Recusandae exercitationem unde aspernatur?      
+                                    Animi magni aut impedit earum sit culpa ipsam iste dolore aspernatur neque ratione beatae 
                                 </div>
                             </a>
                         </article>
-
                         <article>
                             <a href="#">
-                                <div class="news_data">
-                                    <div class="news_posted_at">12 DEC 12</div>
-                                    <div class="news_comments">2</div>
+                                <div class="news-data">
+                                    <div class="news-posted-at">12 DEC 12</div>
+                                    <div class="news-comments">2</div>
                                 </div>
-                                <div class="news_thumbnail">
+                                <div class="news-thumbnail">
                                     <img src="./assets/img/dr.jpg" alt="">
                                 </div>
-                                <div class="news_title">
+                                <div class="news-title">
                                     Lorem ipsum dolor sit amat velum
                                 </div>
-                                <div class="news_resume">
+                                <div class="news-resume">
                                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita esse voluptatem, culpa eveniet quos nemo saepe perspiciatis minus doloremque, veritatis sequi debitis animi reprehenderit inventore illo ex libero temporibus odio!
-                                    Animi magni aut impedit earum sit culpa ipsam iste dolore aspernatur neque ratione beatae sapiente molestiae laudantium, ducimus nam quae qui optio nihil veniam, ipsum eum est. Nemo, nostrum consequatur?
-                                    Iure laborum quaerat, alias eius quae ducimus numquam eaque magnam exercitationem dolorum temporibus expedita. Ex dolores nesciunt debitis maiores distinctio optio qui in ea odio voluptate! Recusandae exercitationem unde aspernatur?      
+                                    Animi magni aut impedit earum sit culpa ipsam iste dolore aspernatur neque ratione beatae 
                                 </div>
                             </a>
                         </article>
-
                         <article>
                             <a href="#">
-                                <div class="news_data">
-                                    <div class="news_posted_at">12 DEC 12</div>
-                                    <div class="news_comments">2</div>
+                                <div class="news-data">
+                                    <div class="news-posted-at">12 DEC 12</div>
+                                    <div class="news-comments">2</div>
                                 </div>
-                                <div class="news_thumbnail">
+                                <div class="news-thumbnail">
                                     <img src="./assets/img/dr.jpg" alt="">
                                 </div>
-                                <div class="news_title">
+                                <div class="news-title">
                                     Lorem ipsum dolor sit amat velum
                                 </div>
-                                <div class="news_resume">
+                                <div class="news-resume">
                                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita esse voluptatem, culpa eveniet quos nemo saepe perspiciatis minus doloremque, veritatis sequi debitis animi reprehenderit inventore illo ex libero temporibus odio!
-                                    Animi magni aut impedit earum sit culpa ipsam iste dolore aspernatur neque ratione beatae sapiente molestiae laudantium, ducimus nam quae qui optio nihil veniam, ipsum eum est. Nemo, nostrum consequatur?
-                                    Iure laborum quaerat, alias eius quae ducimus numquam eaque magnam exercitationem dolorum temporibus expedita. Ex dolores nesciunt debitis maiores distinctio optio qui in ea odio voluptate! Recusandae exercitationem unde aspernatur?      
-                                </div>
-                            </a>
-                        </article>
-
-                        <article>
-                            <a href="#">
-                                <div class="news_data">
-                                    <div class="news_posted_at">12 DEC 12</div>
-                                    <div class="news_comments">2</div>
-                                </div>
-                                <div class="news_thumbnail">
-                                    <img src="./assets/img/dr.jpg" alt="">
-                                </div>
-                                <div class="news_title">
-                                    Lorem ipsum dolor sit amat velum
-                                </div>
-                                <div class="news_resume">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita esse voluptatem, culpa eveniet quos nemo saepe perspiciatis minus doloremque, veritatis sequi debitis animi reprehenderit inventore illo ex libero temporibus odio!
-                                    Animi magni aut impedit earum sit culpa ipsam iste dolore aspernatur neque ratione beatae sapiente molestiae laudantium, ducimus nam quae qui optio nihil veniam, ipsum eum est. Nemo, nostrum consequatur?
-                                    Iure laborum quaerat, alias eius quae ducimus numquam eaque magnam exercitationem dolorum temporibus expedita. Ex dolores nesciunt debitis maiores distinctio optio qui in ea odio voluptate! Recusandae exercitationem unde aspernatur?      
-                                </div>
-                            </a>
-                        </article>
-
-                        <article>
-                            <a href="#">
-                                <div class="news_data">
-                                    <div class="news_posted_at">12 DEC 12</div>
-                                    <div class="news_comments">2</div>
-                                </div>
-                                <div class="news_thumbnail">
-                                    <img src="./assets/img/dr.jpg" alt="">
-                                </div>
-                                <div class="news_title">
-                                    Lorem ipsum dolor sit amat velum
-                                </div>
-                                <div class="news_resume">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita esse voluptatem, culpa eveniet quos nemo saepe perspiciatis minus doloremque, veritatis sequi debitis animi reprehenderit inventore illo ex libero temporibus odio!
-                                    Animi magni aut impedit earum sit culpa ipsam iste dolore aspernatur neque ratione beatae sapiente molestiae laudantium, ducimus nam quae qui optio nihil veniam, ipsum eum est. Nemo, nostrum consequatur?
-                                    Iure laborum quaerat, alias eius quae ducimus numquam eaque magnam exercitationem dolorum temporibus expedita. Ex dolores nesciunt debitis maiores distinctio optio qui in ea odio voluptate! Recusandae exercitationem unde aspernatur?      
+                                    Animi magni aut impedit earum sit culpa ipsam iste dolore aspernatur neque ratione beatae 
                                 </div>
                             </a>
                         </article>
@@ -185,92 +151,148 @@
                 </div>
             </section>
             <aside>
-                <div class="widget">
-                    <div class="widget_title">
-                        <div class="widget_title_text">Departaments</div>
-                        <div class="widget_title_bar"></div>
+                <section>
+                    <div class="widget">
+                        <div class="widget-title">
+                            <div class="widget-title-text">Departaments</div>
+                            <div class="widget-title-bar"></div>
+                        </div>
+                        <div class="widget-body">
+                            <i>Departament ...</i>
+                            <i>Departament ...</i>
+                            <i>Departament ...</i>
+                        </div>
                     </div>
-                    <div class="widget_body">
+                </section>
+                <section>
+                    <div class="widget">
+                        <div class="widget-title">
+                            <div class="widget-title-text">Make An Appointment</div>
+                            <div class="widget-title-bar"></div>
+                        </div>
+                        <div class="widget-body">
+                            <i>Make An Appointment ...</i>
+                            <i>Make An Appointment ...</i>
+                            <i>Make An Appointment ...</i>
+                        </div>
+                    </div>
+                </section>
+            </aside>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div class="container flex-column">
+            <div class="cards">
+                <div class="card-1">
+                    <div class="cards-title">Health Insurance</div>
+                    <div class="cards-main">
                         ...
                     </div>
                 </div>
-                <div class="widget">
-                        <div class="widget_title">
-                            <div class="widget_title_text">Make An Appointment</div>
-                            <div class="widget_title_bar"></div>
-                        </div>
-                        <div class="widget_body">
-                            ...
-                        </div>
-                    </div>
-            </aside>
-        </div>
-    </section>
-    <footer>
-        <div class="container column">
-            <div class="footer_menu">
-                <div class="fm_1">
-                    <div class="card_title">Health Insurance</div>
-                    <div class="card_main">
-                        Here in medicenter we have individual
+                <div class="card-2">
+                    <div class="cards-title">Medical Records</div>
+                    <div class="cards-main">
+                        ...
                     </div>
                 </div>
-                <div class="fm_2">
-                    <div class="card_title">Medical Records</div>
-                    <div class="card_main">
-                        Here in medicenter we have individual
-                    </div>
-                </div>
-                <div class="fm_3">
-                    <div class="card_title">Online Bill Pay</div>
-                    <div class="card_main">
-                        Here in medicenter we have individual
+                <div class="card-3">
+                    <div class="cards-title">Online Bill Pay</div>
+                    <div class="cards-main">
+                        ...
                     </div>
                 </div>
             </div>
-            <div class="footer_area">
-                
-                <div class="footer_areaitem">
-                    <div class="widget">
-                        <div class="widget_title">
-                            <div class="widget_title_text">Medicenter Clinic</div>
-                            <div class="widget_title_bar"></div>
-                        </div>
-                        <div class="widget_body">
-                            ...
+            <div class="footer-area">
+                <section>
+                    <div class="widget-title">
+                        <div class="widget-title-text">Medicenter Clinic</div>
+                        <div class="widget-title-bar"></div>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sapiente nobis tempore iste veritatis.</p>
+                    </div>
+                    <div>
+                        <div class="title">Medicenter Clinic</div>
+                        <div class="address">
+                            <div>
+                                <span>Nome da Rua, nº 1000</span>
+                                <span>Bairro xxxx</span> 
+                                <span>Cidade/UF</span>
+                                <span>00000-000</span>
+                            </div>
+                            <div class="contact">
+                                <span>+55 11 0000-0000</span>
+                                <span>+55 11 0000-0000</span>
+                                <a href="mailto:#" class="email">email@medicenter.com</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="footer_areaitem">
-                    <div class="widget">
-                        <div class="widget_title">
-                            <div class="widget_title_text">Latest Posts</div>
-                            <div class="widget_title_bar"></div>
-                        </div>
-                        <div class="widget_body">
-                            ...
-                        </div>
+                </section>
+               
+                 <!-- Latest Posts -->
+                 <section>
+                    <div class="widget-title">
+                        <div class="widget-title-text">Latest Posts</div>
+                        <div class="widget-title-bar"></div>
                     </div>
-                </div>
-
-                <div class="footer_areaitem">
-                    <div class="widget">
-                        <div class="widget_title">
-                            <div class="widget_title_text">Latest Tweets</div>
-                            <div class="widget_title_bar"></div>
-                        </div>
-                        <div class="widget_body">
-                            ...
-                        </div>
+                    <div class="post">
+                        <a href="#">
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper tortor a enim gravida, a facilisis nulla fringilla. Vivamus nec.
+                            </p>
+                            <span class="date"><script> document.write(new Date().toLocaleDateString()); </script></span>
+                        </a> 
                     </div>
-                </div>
+                    <div class="post">
+                        <a href="#">
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper tortor a enim gravida, a facilisis nulla fringilla. Vivamus nec.
+                            </p>
+                            <span class="date"><script> document.write(new Date().toLocaleDateString()); </script></span>
+                        </a> 
+                    </div>
+                    <div class="post">
+                        <a href="#">
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper tortor a enim gravida, a facilisis nulla fringilla. Vivamus nec.
+                            </p>
+                            <span class="date"><script> document.write(new Date().toLocaleDateString()); </script></span>
+                        </a> 
+                    </div>
+                </section>
 
+                 <!-- Contact -->
+                 <section>
+                    <div class="widget-title">
+                        <div class="widget-title-text">Contact</div>
+                        <div class="widget-title-bar"></div>
+                    </div>
+                    <form id="contact">
+                        <div class="input-row">
+                            <label for="name">Name: <span>*</span></label>
+                            <input name="name" id="name" type="text">
+                        </div>
+                        <div class="input-row">
+                            <label for="email">Email: <span>*</span></label>
+                            <input name="email" id="email" type="email">
+                        </div>
+                        <div class="input-row">
+                            <label for="msg">Mensage: <span>*</span></label>
+                            <textarea name="msg" id="msg" cols="30" rows="5" style=""></textarea>
+                        </div>
+                        <div class="input-row">
+                            <input name="send" id="send" type="submit" value="Send">
+                        </div>
+                    </form>
+                </section>
             </div>
-            <div class="footer_copy">
+            <div class="footer-copy">
                 Copyright - Todos os Direitos Reservados
             </div>
         </div>
     </footer>
+  
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
